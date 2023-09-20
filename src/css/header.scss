@@ -1,0 +1,30 @@
+.Header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+    color: #91d5ff;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+
+    h1 {
+        font-size: 64px;
+        font-weight: 900;
+        text-align: center;
+        line-height: 100px;
+        text-shadow: -3px 0px #0041ff, 0px 3px #0041ff, 3px 0px #0041ff, 0px -3px #0041ff;
+    }
+
+    .gnb ul {
+        display: flex;
+        justify-content: space-between;
+
+        color: #000;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 60px;
+
+    }
+
+}
