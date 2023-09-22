@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react_publicdata_food/static/css/main.be1365d4.css",
+    "main.js": "/react_publicdata_food/static/js/main.ccfbc284.js",
+    "static/media/boatsea.png": "/react_publicdata_food/static/media/boatsea.1521efa683eb6556aec6.png",
+    "index.html": "/react_publicdata_food/index.html",
+    "main.be1365d4.css.map": "/react_publicdata_food/static/css/main.be1365d4.css.map",
+    "main.ccfbc284.js.map": "/react_publicdata_food/static/js/main.ccfbc284.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be1365d4.css",
+    "static/js/main.ccfbc284.js"
+  ]
+}
