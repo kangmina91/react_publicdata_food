@@ -8,12 +8,16 @@
     background: #fff;
     border-bottom: 1px solid #ddd;
 
+
     h1 {
+        position: relative;
         font-size: 64px;
         font-weight: 900;
         text-align: center;
         line-height: 100px;
         text-shadow: -3px 0px #0041ff, 0px 3px #0041ff, 3px 0px #0041ff, 0px -3px #0041ff;
+        text-decoration: wavy underline #0041ff 8px;
+
     }
 
     .gnb ul {
@@ -24,7 +28,6 @@
         font-size: 18px;
         font-weight: 600;
         line-height: 60px;
-
     }
 
 }

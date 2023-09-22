@@ -12,7 +12,7 @@ const GuList = ({ food }) => {
         var mapContainer = document.getElementById('map'), // 지도를 표시할 div  
             mapOption = {
                 center: new kakao.maps.LatLng(guList[0]?.LAT, guList[0]?.LNG), // 지도의 중심좌표
-                level: 4 // 지도의 확대 레벨
+                level: 5 // 지도의 확대 레벨
             };
 
         var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
@@ -20,7 +20,7 @@ const GuList = ({ food }) => {
         // 마커를 표시할 위치와 title 객체 배열입니다 
         var positions = guList.map(it => {
             return {
-                title: it.TITLE,
+                title: it.MAIN_TITLE,
                 latlng: new kakao.maps.LatLng(it.LAT, it.LNG),
             }
         });
@@ -69,10 +69,10 @@ const GuList = ({ food }) => {
     }, [food, guList])
 
     return (
-        <section className="MainGuMapSection">
+        <section className="MainGuMapSection sec">
             <div className="inner">
                 <h2>{gu} 맛집 리스트</h2>
-                <div id="map" style={{ height: '400px' }}></div>
+                <div id="map" style={{ height: '500px' }}></div>
                 <ul className="list gu">
                     {
                         guList.map(it => {

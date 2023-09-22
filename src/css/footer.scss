@@ -1,0 +1,31 @@
+.Footer {
+    padding: 50px 0;
+    border-top: 1px solid #ddd;
+
+    ul li {
+        position: relative;
+
+        margin: 0 0 16px 0;
+    }
+
+    ul li~li::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        transform: translate(0, -50%);
+        width: 1px;
+        height: 12px;
+        background: #777;
+    }
+
+    .contact,
+    .reference {
+        display: flex;
+        gap: 20px;
+
+        color: #555;
+        font-size: 16px;
+    }
+
+}

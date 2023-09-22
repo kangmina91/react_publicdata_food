@@ -1,11 +1,36 @@
-.MainGuMapSection {
-    h2 {
-        font-size: 30px;
-        font-weight: 700;
-        text-align: center;
-        line-height: 60px;
+.AllList {
+    background: #e0f7fa;
+
+    #map {
+        border: 1px solid #ddd;
+        margin: 0 0 60px 0;
     }
 
+    .allgu {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 40px;
+
+        li {
+            border-top: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            background: #fff;
+
+            strong {
+                display: block;
+                text-align: center;
+                font-size: 16px;
+                line-height: 24px;
+                border-bottom: 1px solid #ddd;
+            }
+        }
+    }
+}
+
+.MainGuMapSection {
+
+    background: url(../images/boatsea.png) no-repeat center center/cover;
 
     #map {
         border: 1px solid #ddd;
@@ -21,6 +46,7 @@
             border-top: 1px solid #ddd;
             border-left: 1px solid #ddd;
             border-right: 1px solid #ddd;
+            background: #fff;
 
             strong {
                 display: block;
