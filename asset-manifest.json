@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react_publicdata_food/static/css/main.4375a4e3.css",
-    "main.js": "/react_publicdata_food/static/js/main.ccfbc284.js",
+    "main.css": "/react_publicdata_food/static/css/main.fd45595c.css",
+    "main.js": "/react_publicdata_food/static/js/main.97eb8fe4.js",
     "static/media/boatsea.png": "/react_publicdata_food/static/media/boatsea.1521efa683eb6556aec6.png",
     "index.html": "/react_publicdata_food/index.html",
-    "main.4375a4e3.css.map": "/react_publicdata_food/static/css/main.4375a4e3.css.map",
-    "main.ccfbc284.js.map": "/react_publicdata_food/static/js/main.ccfbc284.js.map"
+    "main.fd45595c.css.map": "/react_publicdata_food/static/css/main.fd45595c.css.map",
+    "main.97eb8fe4.js.map": "/react_publicdata_food/static/js/main.97eb8fe4.js.map"
   },
   "entrypoints": [
-    "static/css/main.4375a4e3.css",
-    "static/js/main.ccfbc284.js"
+    "static/css/main.fd45595c.css",
+    "static/js/main.97eb8fe4.js"
   ]
 }
