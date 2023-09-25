@@ -1,0 +1,101 @@
+// 서브섹션1
+@media (max-width: 768px) {
+    .sec {
+        padding: 20px 0;
+    }
+
+    .Header {
+
+        h1 {
+            position: relative;
+            font-size: 48px;
+            line-height: 80px;
+            margin: 0 0 20px 0;
+        }
+
+        .gnb ul {
+            gap: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1;
+            margin: 0 0 16px 0;
+        }
+
+    }
+
+    .AllList {
+
+        #map {
+            height: 280px !important;
+        }
+    }
+
+    .MainGuMapSection {
+
+        background: url(../images/boatsea.png) no-repeat center center/cover;
+
+        #map {
+            height: 280px !important;
+        }
+
+
+        .gu {
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+            li {
+                border-top: 1px solid #ddd;
+                border-left: 1px solid #ddd;
+                border-right: 1px solid #ddd;
+                background: #fff;
+
+                strong {
+                    display: block;
+                    text-align: center;
+                    font-size: 20px;
+                    line-height: 32px;
+                    border-bottom: 1px solid #ddd;
+                }
+            }
+        }
+
+    }
+
+
+    .item_des {
+        padding: 20px 0;
+
+        .inner {
+            h3 {
+                margin: 0 0 20px 0;
+            }
+
+            .img_box {
+                width: 100%;
+                margin: 0 0 16px 0;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin: 0 auto;
+                border: 1px solid #ddd;
+
+                #map {
+                    width: 100%;
+                    border-bottom: 1px solid #ddd;
+                    border-right: none;
+                    height: 120px !important;
+                }
+
+                .table {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .Footer {
+        padding: 20px 0;
+    }
+}

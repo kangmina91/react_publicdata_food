@@ -4,8 +4,6 @@
 
     ul li {
         position: relative;
-
-        margin: 0 0 16px 0;
     }
 
     ul li~li::before {
@@ -17,6 +15,10 @@
         width: 1px;
         height: 12px;
         background: #777;
+    }
+
+    .contact {
+        margin: 0 0 16px 0;
     }
 
     .contact,
